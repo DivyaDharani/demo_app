@@ -1,4 +1,25 @@
 DemoApp::Application.routes.draw do
+  resources :fruits
+
+
+  resources :samples
+
+
+  resources :ratings
+
+
+  resources :posts
+
+
+  resources :microposts
+
+
+  resources :accounts
+
+
+  resources :users
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

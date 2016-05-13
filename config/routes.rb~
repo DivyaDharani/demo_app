@@ -1,11 +1,14 @@
 DemoApp::Application.routes.draw do
-  resources :vehicles
-
-
-  resources :people
-
-
   resources :fruits
+
+
+  resources :samples
+
+
+  resources :ratings
+
+
+  resources :posts
 
 
   resources :microposts
